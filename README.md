@@ -18,7 +18,7 @@ public class MyApplication {
 ```
 
 ## Dependency Injection
-In Dependency Injection their is primarily a one independent object require many other dependent objects, so these objects are provided/transferred to it on the time of creation.
+In Dependency Injection their is primarily a one independent object that require many other dependent objects, so these objects are provided/transferred to it on the time of creation.
 There are may ways of tranferring via constructor or setters
   * **Loosly coupled** 
   * **Dependency resolution at runtime**
