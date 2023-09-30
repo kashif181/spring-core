@@ -54,6 +54,16 @@ Basically a Programing paradigm in which as aspect (part) that affect multiple p
   * **Spring AOP:** AspectJ
   * **Spring Test:**
 
+# Spring IOC Container
+Basically a machanisum through which a losely coupled application is designe using IOC and DI principle of Spring
+  * **Context/Container:** Where all beans resides in Spring and managed
+    *  AnnotationConfigApplicationContext
+    *  ClassPathXMLApplicationContext
+    *  FileSystemXMLApplicationContext
+    *  AnnotationConfigWebApplicationContext
+    *  XMLWebApplicationContext
+  *  **Bean:** Any POJO/Java Bean Resides in IOC container With following scope singelton(Default), prototype, request, session, global-session
+     
 # Spring AOP Fundamentals 
   * **Aspect:** Its a concern that cut (effect) across multiple part/classes of application **@Aspect**
   * **Join Point:** Specific point/location in the application (while executing)
