@@ -21,12 +21,12 @@ public class MyApplication {
 In Dependency Injection their is primarily a one independent object that require many other dependent objects, so these dependent objects are provided/transferred to it on the time of creation.
 There are may ways of tranferring dependent object few are via constructor or setters
   *  **Few advantages of DI**
-    *  Loosly coupled
-    *  Dependency resolution at runtime
+    -  Loosly coupled
+    -  Dependency resolution at runtime
   * **DI Components:**
-    * Service,
-    * Consumer
-    * Injector
+    -  Service,
+    -  Consumer
+    -  Injector
 
 ## Aspect Oriented Programing
 Basically a Programing paradigm in which as aspect (part) that affect multiple parts of the application/code are typically separate from the core business logic commmon example is logging, security and error handling e.t.c
