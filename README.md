@@ -53,6 +53,17 @@ Basically a Programing paradigm in which as aspect (part) that affect multiple p
   ### Spring Miscellaneous Modules
   * **Spring AOP:** AspectJ
   * **Spring Test:**
+
+# Spring AOP Fundamentals 
+  * **Aspect:** Its a concern that cut (effect) across multiple part/classes of application **@Aspect**
+  * **Join Point:** Specific point/location in the application (while executing)
+  * **Advice:** An action that need to taken at Join point
+    * @Before: Before Join Pont
+    * @After: After Join Pont
+    * @AfterReturning: After Normal Execution
+    * @AfterThrowing: In case of throwing exception
+    * @Around: Intercepts and can modify Join Point Execution
+  * **Point Cut:** A rule/condition that need to be matched so that advice need to be taken for Join Point @Before(**"execution(public String getName())"**)
   
 
 
