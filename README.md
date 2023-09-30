@@ -68,6 +68,7 @@ Basically a Programing paradigm in which as aspect (part) that affect multiple p
   * **Target/Adviced Object:** An object on which advices are applied, always a proxy object
   * **AOP proxy:** an object created by the AOP framework in order to implement the aspect contracts
   * **Weaving:** Linking aspects with other objects to create the advised proxy objects
+  * **aspectjrt and aspectjweaver**
   
 
 
