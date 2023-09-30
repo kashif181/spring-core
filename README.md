@@ -63,7 +63,11 @@ Basically a Programing paradigm in which as aspect (part) that affect multiple p
     * @AfterReturning: After Normal Execution
     * @AfterThrowing: In case of throwing exception
     * @Around: Intercepts and can modify Join Point Execution
-  * **Point Cut:** A rule/condition that need to be matched so that advice need to be taken for Join Point @Before(**"execution(public String getName())"**)
+  * **Point Cut:** A rule/condition that need to be matched so that advice need to be taken for Join Point
+    * @Before(**"execution(public String getName())"**)
+  * **Target/Adviced Object:** An object on which advices are applied, always a proxy object
+  * **AOP proxy:** an object created by the AOP framework in order to implement the aspect contracts
+  * **Weaving:** Linking aspects with other objects to create the advised proxy objects
   
 
 
