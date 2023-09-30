@@ -20,7 +20,8 @@ public class MyApplication {
 ## Dependency Injection (DI)
 In Dependency Injection their is primarily a one independent object that require many other dependent objects, so these dependent objects are provided/transferred to it on the time of creation.
 There are may ways of tranferring dependent object few are via constructor or setters
-  *  **Few advantages of DI**
+  *  **Few advantages of DI:**
+
     -  Loosly coupled
     -  Dependency resolution at runtime
   * **DI Components:**
