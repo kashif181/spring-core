@@ -95,6 +95,7 @@ public void setEmployee(Employee emp) {
 ~~~
   * **Bean Life Cycle:**
     * Instantiation (Constructor Call), Populate Properties and Dependencies (Injection), Initialization (If InitializingBean is implemented than afterPropertiesSet()), Bean Ready for Use, destroy (if DisposableBean interface impelmented)
+    * @PostConstruct, @PreDestroy annotation can be used instead of implementing InitializingBean, DisposableBean interfaces
      
 # Spring AOP Fundamentals 
   * **Aspect:** Its a concern that cut (effect) across multiple part/classes of application **@Aspect**
