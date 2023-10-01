@@ -67,6 +67,7 @@ Basically a machanisum through which a losely coupled application is designe usi
     *  AnnotationConfigWebApplicationContext
     *  XMLWebApplicationContext
   *  **Bean:** Any POJO/Java Bean Resides in IOC container With following scope singelton(Default), prototype, request, session, global-session
+  *  **Bean Life Cycle:**
      
 # Spring AOP Fundamentals 
   * **Aspect:** Its a concern that cut (effect) across multiple part/classes of application **@Aspect**
