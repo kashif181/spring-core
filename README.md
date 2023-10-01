@@ -93,7 +93,7 @@ public void setEmployee(Employee emp) {
   this.employee = emp;
 }
 ~~~
-  *  **Bean Life Cycle:**
+  * **Bean Life Cycle:**
     * Instantiation (Constructor Call), Populate Properties and Dependencies (Injection), Initialization (If InitializingBean is implemented than afterPropertiesSet()), Bean Ready for Use, destroy (if DisposableBean interface impelmented)
      
 # Spring AOP Fundamentals 
