@@ -67,6 +67,29 @@ Basically a machanisum through which a losely coupled application is designe usi
     *  AnnotationConfigWebApplicationContext
     *  XMLWebApplicationContext
   *  **Bean:** Any POJO/Java Bean Resides in IOC container With following scope singelton(Default), prototype, request, session, global-session
+  *  **Bean Auto Wiring:** There are different way of autowiring like constructor based, setter based, by type and by name
+    ```
+    // using autowird annotation on type
+    @Autowired
+    private Employee employee
+
+    // constructor is used for autowire by constructor
+	  public EmployeeService(Employee emp) {
+		  System.out.println("Autowiring by constructor used");
+		  this.employee = emp;
+	  }
+
+    //used for autowire byName and byType
+	  public void setEmployee(Employee emp) {
+		  this.employee = emp;
+	  }
+
+    //setter based
+    @Autowired
+	  public void setEmployee(Employee emp) {
+		  this.employee = emp;
+	  }
+    ```
   *  **Bean Life Cycle:**
      
 # Spring AOP Fundamentals 
