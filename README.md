@@ -69,7 +69,7 @@ Basically a machanisum through which a losely coupled application is designe usi
   *  **Bean:** Any POJO/Java Bean Resides in IOC container With following scope singelton(Default), prototype, request, session, global-session
   *  **Bean Auto Wiring:** There are different way of autowiring like constructor based, setter based, by type and by name
     ```
-      // using autowird annotation on type
+ // using autowird annotation on type
       @Autowired
       private Employee employee
       
@@ -89,7 +89,7 @@ Basically a machanisum through which a losely coupled application is designe usi
       public void setEmployee(Employee emp) {
         this.employee = emp;
       }
-    ```
+```
   *  **Bean Life Cycle:**
      
 # Spring AOP Fundamentals 
