@@ -112,7 +112,21 @@ public void setEmployee(Employee emp) {
   * **AOP proxy:** an object created by the AOP framework in order to implement the aspect contracts
   * **Weaving:** Linking aspects with other objects to create the advised proxy objects
   * **aspectjrt and aspectjweaver**
-  
+
+# Spring Core Annotation
+* @Configuration: (C) With it Declares one or more @Bean methods, classes are processed by the Spring container to generate bean definitions and service requests for those beans at runtime
+* @ComponentScan(basePackages = {},basePackageClasses = {},includeFilters = {},excludeFilters = {},useDefaultFilters = true/false) (C)
+* @Component: (C) Indicates that an annotated class is a “component” 
+	* @Service
+	* @Repository
+* @Bean(name = "comp", initMethod = "turnOn", destroyMethod = "turnOff"): (M) Produces a bean to be managed by the Spring container
+	* @Primary: To indicate the primary bean to be used when there are multiple beans of the same type
+	* @Qualifier: To specify the exact bean to be injected when there are multiple candidates of the same type
+	* @PreDestroy and @PostConstruct: are alternative way for bean initMethod and destroyMethod
+	* @Scope(value="request"): (C) define the scope of Bean
+* @Autowired(required=false): (C, F, M) For automatic dependency injection
+* @PropertySource: (C) For adding a property source to Spring’s Environment
+* @Value: (C, F, M) Used to assign default values to variables and method arguments 
 
 
   
