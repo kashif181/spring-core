@@ -90,6 +90,7 @@ Basically a machanisum through which a losely coupled application is designe usi
 	public void setEmployee(Employee emp) {
 		  this.employee = emp;
 	  }
+   
     ```
   *  **Bean Life Cycle:**
      
